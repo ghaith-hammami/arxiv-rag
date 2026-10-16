@@ -1,0 +1,26 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and generated caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.eval_cache/
+
+# Generated indexes and downloaded paper data
+data/faiss_index/
+data/papers/
+
+# Local development notes and exploratory output
+/agent.md
+/explanation.txt
+/notebooks/
+/data/retrieval_metrics.json
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
